@@ -1,0 +1,3 @@
+glide install
+go-bindata -pkg resources  -o resources/assets.go static/...
+go build
